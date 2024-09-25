@@ -1,0 +1,7 @@
+data/org.bswa.Gnome47Test.desktop.in
+data/org.bswa.Gnome47Test.appdata.xml.in
+data/org.bswa.Gnome47Test.gschema.xml
+src/window.ui
+src/main.py
+src/window.py
+

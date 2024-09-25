@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome_47_test">
+	<schema id="org.bswa.Gnome47Test" path="/org/bswa/Gnome47Test/">
+	</schema>
+</schemalist>

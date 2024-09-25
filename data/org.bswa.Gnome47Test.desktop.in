@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=gnome_47_test
+Exec=gnome_47_test
+Icon=org.bswa.Gnome47Test
+Terminal=false
+Type=Application
+Categories=GTK;
+StartupNotify=true
