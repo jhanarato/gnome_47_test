@@ -23,3 +23,17 @@ I'd like to do the same thing in the terminal. Based on the flatpak docs, I'm us
 
 `$ flatpak-builder --force-clean --user --repo=repo builddir org.bswa.Gnome47Test.json`
 
+Having upgraded `flatpak-builder` to version `1.4.4` I get the following error:
+
+```
+Running appstreamcli compose
+Only accepting components: org.bswa.Gnome47Test, org.bswa.Gnome47Test.desktop
+Processing directory: /home/jr/Code/gnome_47_test/.flatpak-builder/rofiles/rofiles-CMwPv0/files
+Composing metadata...
+Run failed, some data was ignored.
+Errors were raised during this compose run:
+org.bswa.Gnome47Test.desktop
+  E: metainfo-no-summary
+Refer to the generated issue report data for details on the individual problems.
+Error: ERROR: appstreamcli compose failed: Child process exited with code 1
+```
