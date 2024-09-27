@@ -4,6 +4,28 @@
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>GPL-3.0-or-later</project_license>
 	<description>
-	  <p>No description</p>
+	  <p>This is a really long description that will surely satisfy our linter, right?
+	    No, longer! Seriously, we want something so long your jaw will drop.
+	  </p>
 	</description>
+  <name>App Name</name>
+  <summary>Short summary</summary>
+  <url type="homepage">https://example.org/</url>
+  <launchable type="desktop-id">org.bswa.Gnome47Test.desktop</launchable>
+  <releases>
+    <release version="0.0.1" date="2024-09-26">
+      <url type="details">https://example.org/changelog.html#version_0.0.1</url>
+      <description>
+        <p>Release description</p>
+          <ul>
+            <li>List of changes</li>
+            <li>List of changes</li>
+          </ul>
+      </description>
+    </release>
+  </releases>
+  <content_rating type="oars-1.1" />
+  <developer id="org.bswa">
+    <name>Ajahn J.R></name>
+  </developer>
 </component>
